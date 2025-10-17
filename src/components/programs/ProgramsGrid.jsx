@@ -28,7 +28,7 @@ const ProgramsGrid = () => {
       mode: "Live workshops",
       icon: <FaLaptop />,
       image: "/assets/founders.jpg",
-      cta: "Build Smart from Day One",
+      cta: "Register Your Interests",
       link: "/founder-solution"
     },
     {
@@ -41,7 +41,7 @@ const ProgramsGrid = () => {
       mode: "Video lessons + Community",
       icon: <FaShareAlt />,
       image: "/assets/social-media.jpg",
-      cta: "Connect the Dots",
+      cta: "Register Your Interests",
       link: "/programs/social-media-websites"
     },
     {
@@ -54,7 +54,7 @@ const ProgramsGrid = () => {
       mode: "Mentorship program",
       icon: <FaRocket />,
       image: "/assets/scale.jpg",
-      cta: "Scale With Confidence",
+      cta: "Coming Soon",
       link: "/programs/scale-with-kerich"
     },
     {
@@ -67,7 +67,7 @@ const ProgramsGrid = () => {
       mode: "Live masterclasses monthly",
       icon: <FaUpload />,
       image: "/assets/trends.jpg",
-      cta: "Stay Ahead of the Curve",
+      cta: "Coming Soon",
       link: "/programs/trends-masterclass"
     },
     {
@@ -80,17 +80,31 @@ const ProgramsGrid = () => {
       mode: "Resource library",
       icon: <FaTools />,
       image: "/assets/toolkit.jpg",
-      cta: "Get the Toolkit",
+      cta: "Download the Toolkit",
       link: "/programs/development-toolkit"
     }
   ];
 
   return (
     <section className="py-5 bg-white">
+      <div className="absolute inset-0 z-0">
+        {/* Animated Gradient Orbs */}
+        <div className="absolute top-1/4 -left-10 w-72 h-72 bg-blue-200/30 rounded-full blur-3xl animate-pulse-slow" />
+        <div className="absolute bottom-1/4 -right-10 w-96 h-96 bg-indigo-200/20 rounded-full blur-3xl animate-pulse-slower" />
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-cyan-200/25 rounded-full blur-3xl animate-pulse-medium" />
+        
+        {/* Geometric Patterns */}
+        <div className="absolute top-20 right-20 opacity-5">
+          <div className="w-32 h-32 border-2 border-blue-300 rounded-full" />
+        </div>
+        <div className="absolute bottom-32 left-20 opacity-5">
+          <div className="w-24 h-24 border border-indigo-300 rotate-45" />
+        </div>
+      </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-light bg-gradient-to-r from-gray-500 to-yellow-600 bg-clip-text text-transparent mb-4">
             Transformative Programs
           </h2>
           <div className="w-16 h-0.5 bg-gray-300 mx-auto mb-6" />

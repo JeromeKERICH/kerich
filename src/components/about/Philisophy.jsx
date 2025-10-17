@@ -77,7 +77,7 @@ const Philosophy = () => {
           variants={containerVariants}
         >
           <motion.div variants={itemVariants}>
-            <h2 className="text-4xl lg:text-5xl font-light text-gray-900 mb-6">
+            <h2 className="text-2xl md:text-4xl font-light bg-gradient-to-r from-gray-500 to-yellow-600 bg-clip-text text-transparent mb-6">
               How I Work
             </h2>
             <motion.div 
@@ -122,15 +122,15 @@ const Philosophy = () => {
                 {/* Content */}
                 <div className="space-y-4">
                   <div>
-                    <h3 className="text-2xl font-semibold text-from-gray-500 to-yellow-600 mb-2">
+                    <h3 className="text-xl font-medium text-from-gray-500 to-yellow-600 mb-2">
                       {point.title}
                     </h3>
-                    <p className="text-lg font-medium text-gray-700">
+                    <p className="text-lg font-light text-gray-700">
                       {point.description}
                     </p>
                   </div>
 
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-gray-500 leading-relaxed">
                     {point.details}
                   </p>
                 </div>

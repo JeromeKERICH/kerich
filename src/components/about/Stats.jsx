@@ -76,7 +76,7 @@ const Achievements = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl lg:text-4xl font-light text-gray-900 mb-4">
+          <h2 className="text-2xl lg:text-4xl font-light bg-gradient-to-r from-gray-500 to-yellow-600 bg-clip-text text-transparent mb-4">
             Trusted By Industry Leaders
           </h2>
           <motion.div 

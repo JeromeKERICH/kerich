@@ -107,10 +107,10 @@ const Portfolio = () => {
         
         {/* Section Header */}
         <div className="text-center mb-6 py-20">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4">
+          <h2 className="text-2xl md:text-5xl font-light bg-gradient-to-r from-gray-500 to-yellow-600 bg-clip-text text-transparent mb-4">
             Proven Results
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-l md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Real projects, measurable outcomes. See how I've helped businesses achieve their goals.
           </p>
         </div>
@@ -249,7 +249,7 @@ const CaseStudyCard = ({ study }) => {
           href={`/case-studies/${study.id}`}
           className="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 mt-4 transition-colors duration-300 group/link"
         >
-          View case study
+          View Website
           <svg className="w-4 h-4 ml-2 transform group-hover/link:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>

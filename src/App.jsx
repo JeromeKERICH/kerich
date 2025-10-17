@@ -8,6 +8,9 @@ import Programs from "./pages/Programs";
 import PathFinder from "./pages/Path";
 import FoundersSolution from "./pages/Founder";
 import Portfolio from "./pages/Portfolio";
+import ContactSection from "./pages/Contact";
+import TermsOfService from "./pages/Terms";
+import PrivacyPolicy from "./pages/Policy";
 
 
 
@@ -29,6 +32,9 @@ function App() {
           <Route path="/path-finder" element={<PathFinder/>}/>
           <Route path="/founder-solution" element={<FoundersSolution/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
+          <Route path="/contact" element={<ContactSection/>}/>
+          <Route path="/terms" element={<TermsOfService/>}/>
+          <Route path="/privacy" element={<PrivacyPolicy/>}/>
           
         
         </Routes>

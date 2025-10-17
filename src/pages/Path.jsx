@@ -131,7 +131,7 @@ const PathFinder = () => {
       icon: <FaRocket className="text-2xl" />,
       features: [
         { icon: <FaDownload className="text-gray-400" />, text: 'Everything in Free plan' },
-        { icon: <FaCalendar className="text-gray-400" />, text: '6 weeks of guided mentorship' },
+        { icon: <FaCalendar className="text-gray-400" />, text: '4 weeks of guided mentorship ' },
         { icon: <FaCode className="text-gray-400" />, text: 'Personal project reviews' },
         { icon: <FaChartLine className="text-gray-400" />, text: 'Career strategy sessions' },
         { icon: <FaUsers className="text-gray-400" />, text: 'Lifetime community access' },

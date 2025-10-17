@@ -66,7 +66,7 @@ const CaseStudies = () => {
         
         {/* Section Header */}
         <div className="text-center mb-6">
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-light bg-gradient-to-r from-gray-500 to-yellow-600 bg-clip-text text-transparent mb-4">
             Proven Results
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">

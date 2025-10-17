@@ -56,8 +56,8 @@ const ServicesSection = () => {
         {/* Section Header */}
         <div className="text-center mb-10 border-t border-gray-200">
          
-          <h2 className="text-4xl md:text-5xl font-light text-gray-900 mb-4 mt-6">
-            What We Offer
+          <h2 className="text-4xl md:text-5xl font-light bg-gradient-to-r from-gray-500 to-yellow-600 bg-clip-text text-transparent mb-4 mt-6">
+            What I Offer
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Professional services designed to deliver measurable results and drive your business forward
